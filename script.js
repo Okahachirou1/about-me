@@ -5,7 +5,7 @@ const experience = [
     role: "Senior QA Lead",
     tag: "TEAM LEADERSHIP",
     description:
-      "Lead a four-person QA team across 10+ connected projects. Set testing strategy, review test assets and defect reports, guide functional and integration testing, and partner with product and engineering to surface release risks early.",
+      "Lead an 8+ member QA team across 10+ connected projects. Set testing strategy, review test assets and defect reports, guide functional and integration testing, and partner with product and engineering to surface release risks early.",
   },
   {
     date: "2024 — 2025",
@@ -22,6 +22,14 @@ const experience = [
     tag: "QUALITY DELIVERY",
     description:
       "Built a broad foundation in functional, regression, integration, and system testing, with hands-on API checks, SQL validation, test documentation, and close collaboration with delivery teams.",
+  },
+  {
+    date: "EARLIER EXPERIENCE",
+    company: "Operations Leadership",
+    role: "Operation Lead",
+    tag: "OPERATIONS",
+    description:
+      "An operations leadership background that complements QA work, connecting delivery priorities with practical team execution.",
   },
 ];
 
