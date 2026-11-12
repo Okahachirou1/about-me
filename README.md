@@ -76,4 +76,4 @@ Tested payment and transaction journeys, failure handling, risk controls, and cr
 
 ## Contact
 
-For professional contact, connect via [LinkedIn](https://www.linkedin.com/in/vince-le-737272178) or [GitHub](https://github.com/Okahachirou1). Direct phone and email are intentionally omitted from this public profile.
+For professional contact, email [thaivinhle1996@gmail.com](mailto:thaivinhle1996@gmail.com), connect via [LinkedIn](https://www.linkedin.com/in/vince-le-737272178), or visit [GitHub](https://github.com/Okahachirou1).

@@ -28,7 +28,7 @@ Open `http://localhost:4173`. You can also open `index.html` directly, though a 
 
 Edit the experience entries, project cards, skill groups, and other page copy directly in `index.html`. Add or remove the corresponding HTML blocks to change their count. Replace `avatar.jpg` to update the profile portrait. The original `DSC00720.jpg` is excluded from Git; only the optimized web copy is published.
 
-The original CV remains local and is excluded from Git because it contains personal contact details. Its small contact text and some employer/project names were not reliably readable during transcription, so only verified information is shown. Add verified email, phone, or social links to the contact section if you choose to publish them.
+The original CV remains local and is excluded from Git because it contains personal contact details. Only verified contact information is published; phone remains private while the verified email and social links appear in the contact section.
 
 ## Deploy
 
