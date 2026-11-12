@@ -13,19 +13,18 @@ QA professional with 4+ years of experience in manual testing and full-stack tes
 ### Senior Manual QA Lead · IG Tech
 **B2B Online Gaming Platform | 2025–Present | Ho Chi Minh City**
 
-- Lead and mentor an 8+ member QA team, assigning work and supporting delivery across 10+ concurrent projects.
-- Define and standardize test strategies, plans, and processes; review scenarios, cases, and checklists to strengthen test coverage.
-- Oversee functional, integration, and system testing across product modules, and coordinate UAT with clients and partners.
-- Guide REST API testing with Postman and validate data accuracy in PostgreSQL and MySQL.
-- Manage Jira triage, prioritization, tracking, and verification; partner with BAs, developers, and stakeholders to clarify requirements and address release risks.
+- Lead and mentor an 8+ member QA team across 10+ concurrent projects, using AI-assisted prompt workflows such as GitHub Copilot and LLM prompts to accelerate test case generation and uncover complex functional edge cases.
+- Oversee functional, integration, and system testing; use AI tools to rapidly analyze product requirements and cross-check business logic against PRDs to resolve ambiguity early in the sprint.
+- Guide REST API testing with Postman and validate PostgreSQL/MySQL data, applying AI-driven log analysis to reduce root-cause investigation time for complex backend anomalies.
+- Manage Jira triage, prioritization, and tracking; collaborate with BAs and developers to assess release risks and streamline defect lifecycle management through automated metric reporting.
 
 ### Manual QA Engineer · ELFIE PTD LTD
 **HealthTech Mobile & Web Platform | 2024–2025 | Ho Chi Minh City**
 
-- Analyzed product requirements and designed test scenarios and cases for mobile and web applications.
-- Tested REST APIs with Postman and used Chrome DevTools network logs to investigate frontend/backend integration.
-- Validated PostgreSQL data integrity across frontend, backend, and database layers; tracked defects and sustained regression coverage in Jira.
-- Led QA for Elfie Research, a drug experiment recording platform; tested sensitive medical data and GDPR/HIPAA-like requirements, improving coverage and helping reduce data defects.
+- Analyzed product requirements and designed robust test scenarios for mobile and web HealthTech applications, incorporating AI-driven exploratory testing to simulate diverse user behavior and validate GDPR/HIPAA-like privacy requirements.
+- Tested REST APIs with Postman and used Chrome DevTools with AI-assisted log parsers to investigate frontend/backend integration bottlenecks.
+- Validated PostgreSQL data integrity across multiple architectural layers, tracked defects in Jira, and sustained regression coverage.
+- Led QA for Elfie Research, a drug experiment recording platform, ensuring zero data loss and reliable handling of sensitive medical datasets with AI-assisted risk assessment templates to reduce data-defect escape rates.
 
 ### Manual QA Engineer · SOHU Corporation — Asia Company
 **Online Gaming | 2022–2024 | Onsite, Philippines**
