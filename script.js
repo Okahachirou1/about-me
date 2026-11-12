@@ -45,3 +45,45 @@ const revealObserver = new IntersectionObserver(
 );
 
 document.querySelectorAll(".reveal, .bento-card").forEach((element) => revealObserver.observe(element));
+
+const copyEmailButton = document.querySelector(".copy-email-button");
+const copyEmailStatus = document.querySelector("#copy-email-status");
+
+if (copyEmailButton && copyEmailStatus) {
+  let copyStatusTimer;
+
+  copyEmailButton.addEventListener("click", async () => {
+    const email = copyEmailButton.dataset.copyEmail;
+    let copied = false;
+
+    try {
+      await navigator.clipboard.writeText(email);
+      copied = true;
+    } catch {
+      const emailInput = document.createElement("textarea");
+      emailInput.value = email;
+      emailInput.setAttribute("readonly", "");
+      emailInput.style.position = "fixed";
+      emailInput.style.opacity = "0";
+      document.body.append(emailInput);
+      emailInput.select();
+      copied = document.execCommand("copy");
+      emailInput.remove();
+    }
+
+    window.clearTimeout(copyStatusTimer);
+    copyEmailStatus.classList.add("is-visible");
+
+    if (copied) {
+      copyEmailButton.querySelector(".copy-email-label").textContent = "Copied!";
+      copyEmailStatus.textContent = "Copied!";
+      copyStatusTimer = window.setTimeout(() => {
+        copyEmailButton.querySelector(".copy-email-label").textContent = "Copy Email";
+        copyEmailStatus.textContent = "";
+        copyEmailStatus.classList.remove("is-visible");
+      }, 1800);
+    } else {
+      copyEmailStatus.textContent = "Copy failed. Please try again.";
+    }
+  });
+}

@@ -10,7 +10,7 @@ QA professional with 4+ years of experience in manual testing and full-stack tes
 
 ## Experience
 
-### Senior Manual QA Lead · IG Tech
+### Senior QA Lead · IG Tech
 **B2B Online Gaming Platform | 2025–Present | Onsite: Tan Binh, Ho Chi Minh City**
 
 - Lead and mentor an 8+ member QA team across 10+ concurrent projects, using AI-assisted prompt workflows such as GitHub Copilot and LLM prompts to accelerate test case generation and uncover complex functional edge cases.
@@ -18,7 +18,7 @@ QA professional with 4+ years of experience in manual testing and full-stack tes
 - Guide REST API testing with Postman and validate PostgreSQL/MySQL data, applying AI-driven log analysis to reduce root-cause investigation time for complex backend anomalies.
 - Manage Jira triage, prioritization, and tracking; collaborate with BAs and developers to assess release risks and streamline defect lifecycle management through automated metric reporting.
 
-### Manual QA Engineer · ELFIE PTD LTD
+### QA Engineer · ELFIE PTD LTD
 **HealthTech Mobile & Web Platform | 2024–2025 | Onsite: District 1, Ho Chi Minh City**
 
 - Analyzed product requirements and designed robust test scenarios for mobile and web HealthTech applications, incorporating AI-driven exploratory testing to simulate diverse user behavior and validate GDPR/HIPAA-like privacy requirements.
