@@ -92,49 +92,9 @@ const downloadPdfButton = document.querySelector("#download-pdf");
 const pdfExportStatus = document.querySelector("#pdf-export-status");
 
 if (downloadPdfButton && pdfExportStatus) {
-  downloadPdfButton.addEventListener("click", async () => {
-    if (typeof window.html2pdf !== "function") {
-      pdfExportStatus.textContent = "PDF export is unavailable. Check your connection and try again.";
-      return;
-    }
-
-    const buttonLabel = downloadPdfButton.querySelector(".download-pdf-label");
-    downloadPdfButton.disabled = true;
-    buttonLabel.textContent = "Preparing PDF…";
-    pdfExportStatus.textContent = "Preparing your portfolio PDF…";
-    document.body.classList.add("pdf-exporting");
-
-    try {
-      await document.fonts.ready;
-      await Promise.all(
-        [...document.images].map((image) =>
-          image.complete ? Promise.resolve() : new Promise((resolve) => {
-            image.addEventListener("load", resolve, { once: true });
-            image.addEventListener("error", resolve, { once: true });
-          }),
-        ),
-      );
-
-      await window.html2pdf()
-        .set({
-          margin: [10, 10, 12, 10],
-          filename: "Vince-Le-Portfolio.pdf",
-          image: { type: "jpeg", quality: 0.95 },
-          html2canvas: { scale: 1.5, useCORS: true, backgroundColor: "#090D16", scrollY: 0 },
-          jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
-          pagebreak: { mode: ["css", "legacy"], avoid: [".timeline-item", ".work-card", ".skill-group", ".education-entry"] },
-        })
-        .from(document.body)
-        .save();
-
-      pdfExportStatus.textContent = "Your PDF has been downloaded.";
-    } catch (error) {
-      console.error("PDF export failed", error);
-      pdfExportStatus.textContent = "Could not create the PDF. Please try again.";
-    } finally {
-      document.body.classList.remove("pdf-exporting");
-      downloadPdfButton.disabled = false;
-      buttonLabel.textContent = "Download PDF";
-    }
+  downloadPdfButton.addEventListener("click", () => {
+    pdfExportStatus.hidden = true;
+    pdfExportStatus.textContent = "";
+    window.print();
   });
 }
