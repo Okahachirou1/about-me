@@ -129,7 +129,9 @@ h1, h2 { font-family: var(--display); letter-spacing: 0; }
 .timeline-item:hover::before { transform: scale(1.28); background: var(--cyan); box-shadow: 0 0 0 5px rgba(0,240,255,.1), 0 0 20px rgba(0,240,255,.8); }
 .timeline-date { padding-top: 4px; color: var(--cyan); font-family: var(--mono); font-size: 10px; letter-spacing: .02em; }
 .timeline-company { margin: 0 0 4px; font-family: var(--display); font-size: 20px; font-weight: 700; }
-.timeline-role { margin: 0 0 13px; color: #b8c5d8; font-size: 13px; }
+.timeline-role { margin: 0 0 5px; color: #b8c5d8; font-size: 13px; }
+.timeline-location { display: flex; align-items: center; gap: 8px; margin: 0 0 13px; color: var(--muted); font-family: var(--mono); font-size: 11px; }
+.timeline-location span { padding: 2px 5px; border: 1px solid rgba(0,240,255,.25); color: var(--cyan); font-size: 8px; }
 .timeline-bullets { display: grid; gap: 9px; margin: 0; padding-left: 17px; color: var(--muted); font-size: 13px; line-height: 1.65; }
 .timeline-bullets li { padding-left: 2px; }
 .timeline-bullets li::marker { color: var(--violet); }
