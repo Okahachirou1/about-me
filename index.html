@@ -15,8 +15,9 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=contact-email-20261112" />
-    <script src="script.js?v=contact-email-20261112" defer></script>
+    <link rel="stylesheet" href="styles.css?v=pdf-export-20261112" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" defer></script>
+    <script src="script.js?v=pdf-export-20261112" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -42,7 +43,11 @@
           <div class="hero-actions">
             <a class="button button-dark" href="#experience">Explore my experience <span aria-hidden="true">↓</span></a>
             <a class="text-link" href="#skills">Explore the toolkit <span aria-hidden="true">↓</span></a>
+            <button class="button button-outline download-pdf-button" id="download-pdf" type="button" data-html2canvas-ignore="true">
+              <span aria-hidden="true">↓</span><span class="download-pdf-label">Download PDF</span>
+            </button>
           </div>
+          <p class="pdf-export-status" id="pdf-export-status" role="status" aria-live="polite"></p>
         </div>
         <div class="hero-art reveal" aria-label="Vince Le portrait and AI-augmented QA pipeline">
           <div class="portrait-frame tech-frame">
