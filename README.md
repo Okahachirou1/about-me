@@ -1,6 +1,6 @@
 # Vince Le — Personal Portfolio
 
-A responsive, static portfolio based on the CV in this repository. The reference repository is a Markdown CV rather than a web application, so this page keeps its concise, experience-first structure and uses plain HTML, CSS, and JavaScript for easy deployment.
+A responsive, static portfolio based on the CV in this repository. The reference repository is a Markdown CV rather than a web application, so this page keeps its concise, experience-first structure and uses plain HTML and CSS. All portfolio content is written directly in `index.html`; JavaScript only updates the copyright year and adds a small reveal effect.
 
 ## Project structure
 
@@ -26,7 +26,7 @@ Open `http://localhost:4173`. You can also open `index.html` directly, though a 
 
 ## Update content
 
-Edit the `experience`, `projects`, and `skills` arrays near the top of `script.js`. The timeline and project grid adjust automatically to the number of entries. Replace `avatar.jpg` to update the profile portrait. The original `DSC00720.jpg` is excluded from Git; only the optimized web copy is published.
+Edit the experience entries, project cards, skill groups, and other page copy directly in `index.html`. Add or remove the corresponding HTML blocks to change their count. Replace `avatar.jpg` to update the profile portrait. The original `DSC00720.jpg` is excluded from Git; only the optimized web copy is published.
 
 The original CV remains local and is excluded from Git because it contains personal contact details. Its small contact text and some employer/project names were not reliably readable during transcription, so only verified information is shown. Add verified email, phone, or social links to the contact section if you choose to publish them.
 
