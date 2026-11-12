@@ -85,6 +85,9 @@ h1, h2 { font-family: var(--display); letter-spacing: 0; }
 .timeline-company { margin: 0 0 3px; font-family: var(--display); font-size: 20px; font-weight: 700; }
 .timeline-role { margin: 0 0 12px; color: var(--muted); font-size: 12px; }
 .timeline-description { max-width: 700px; margin: 0; color: #58655e; font-size: 12px; }
+.timeline-bullets { display: grid; gap: 7px; margin: 0; padding-left: 17px; color: #58655e; font-size: 12px; line-height: 1.55; }
+.timeline-bullets li { padding-left: 2px; }
+.timeline-bullets li::marker { color: var(--coral); }
 .timeline-tag { justify-self: end; align-self: start; padding: 6px 9px; background: #edf2eb; color: var(--green); font-family: var(--mono); font-size: 8px; }
 .work-section { padding-top: 102px; padding-bottom: 110px; }
 .work-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
