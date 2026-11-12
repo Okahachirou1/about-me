@@ -1,43 +1,76 @@
-# Vince Le — Personal Portfolio
+# Vince Le
 
-A responsive, static portfolio based on the CV in this repository. The reference repository is a Markdown CV rather than a web application, so this page keeps its concise, experience-first structure and uses plain HTML and CSS. All portfolio content is written directly in `index.html`; JavaScript only updates the copyright year and adds a small reveal effect.
+**QA Lead | Operation Lead | Test Automation**
 
-## Project structure
+Ho Chi Minh City, Vietnam · [Portfolio source](https://github.com/Okahachirou1/about-me) · [GitHub](https://github.com/Okahachirou1)
 
-```text
-About/
-├── index.html
-├── styles.css
-├── script.js
-├── avatar.jpg
-├── README.md
-└── .gitignore
-```
+## Professional Summary
 
-## Run locally
+Quality engineering professional with 6+ years of experience across manual QA, test automation, and operations leadership. Currently leading an 8+ member QA team supporting 10+ connected projects. Experienced in test strategy, functional and integration testing, API validation, release risk management, and building maintainable automation that supports dependable delivery.
 
-No package installation or build step is required. From this folder, run:
+## Experience
 
-```powershell
-py -m http.server 4173
-```
+### Senior QA Lead · IG Tech
+**2025–Present**
 
-Open `http://localhost:4173`. You can also open `index.html` directly, though a local server better matches deployment behavior.
+- Lead an 8+ member QA team across 10+ connected projects.
+- Set testing strategy and review test assets, test coverage, and defect reports.
+- Guide functional and integration testing and partner with product and engineering teams.
+- Surface release risks early and support informed delivery decisions.
 
-## Update content
+### Manual QA Engineer · Healthcare Technology
+**2024–2025**
 
-Edit the experience entries, project cards, skill groups, and other page copy directly in `index.html`. Add or remove the corresponding HTML blocks to change their count. Replace `avatar.jpg` to update the profile portrait. The original `DSC00720.jpg` is excluded from Git; only the optimized web copy is published.
+- Translated requirements into test scenarios and executed UAT and regression testing.
+- Verified user-interface behavior and backend data.
+- Managed defects through verification and release follow-up.
 
-The original CV remains local and is excluded from Git because it contains personal contact details. Its small contact text and some employer/project names were not reliably readable during transcription, so only verified information is shown. Add verified email, phone, or social links to the contact section if you choose to publish them.
+### Quality Assurance / Manual Testing
+**2019–2024**
 
-## Deploy
+- Built experience in functional, regression, integration, and system testing.
+- Performed API checks and SQL validation and maintained test documentation.
+- Worked closely with delivery teams to support software quality.
 
-### GitHub Pages
+### Operation Lead · Operations Leadership
+**Earlier experience**
 
-Push this folder to a GitHub repository, then open **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/ (root)`, and save. The site uses relative asset and CV paths, so it works from a repository subpath.
+- Developed an operations leadership background focused on connecting delivery priorities with practical team execution.
+- Bring an operations perspective to QA leadership, coordination, and release readiness.
 
-### Vercel
+## Selected Projects
 
-Import the repository into Vercel. Select **Other** as the framework preset, leave the build command empty, and use `.` as the output directory.
+### End-to-End Automation Framework
 
-Google Fonts are loaded remotely; the page falls back to system serif/sans fonts if they are unavailable.
+Built maintainable browser test coverage using page objects and reusable test utilities to support regression and smoke testing.
+
+**Technologies:** Selenium, Java, Playwright, TypeScript
+
+### API and Delivery Pipeline Quality
+
+Connected API validation and automated test runs to the delivery workflow to provide useful feedback before release.
+
+**Technologies:** REST API, Postman, CI/CD, GitHub Actions
+
+### Healthcare Platform Testing
+
+Supported UAT and regression testing for healthcare applications, pairing UI verification with database checks and structured defect follow-through.
+
+**Focus:** Healthcare, UAT, SQL, Jira
+
+## Skills
+
+- **Test automation:** Selenium, Java, Playwright, TypeScript, TestNG, Maven
+- **API and data:** REST API, Postman, SQL, PostgreSQL, MySQL
+- **Delivery tools:** CI/CD, GitHub Actions, Jira, defect lifecycle
+- **Quality practice:** Test strategy, functional testing, regression, integration testing, UAT, team mentoring
+- **Leadership:** QA team leadership, operations coordination, release-risk communication
+
+## Education
+
+### Hong Bang International University
+**2015–2019** · Ho Chi Minh City, Vietnam
+
+## Contact
+
+For professional contact, reach out through [GitHub](https://github.com/Okahachirou1).
