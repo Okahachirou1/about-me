@@ -1,6 +1,6 @@
 # Portfolio Site Setup
 
-The portfolio is a responsive static website built with HTML and CSS. All page content is written directly in `index.html`; `script.js` only updates the copyright year and adds a small reveal effect.
+The portfolio is a responsive static website built with HTML and CSS. All page content is written directly in `index.html`; `script.js` updates the copyright year and adds scroll-triggered reveal and count-up effects.
 
 ## Project structure
 
